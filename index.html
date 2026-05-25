@@ -385,6 +385,18 @@
         }
         .footer-col h4 { margin-bottom: 20px; color: var(--accent-green); }
         .footer-col p { margin-bottom: 10px; opacity: 0.8; }
+        .footer-col p i {
+            color: var(--accent-green);
+            margin-right: 10px;
+            width: 16px;
+            text-align: center;
+        }
+        .footer-col p a {
+            transition: color 0.3s ease;
+        }
+        .footer-col p a:hover {
+            color: var(--accent-green);
+        }
         .social-media {
             margin-top: 20px;
         }
@@ -724,9 +736,9 @@
 
             <div class="policy-box reveal">
                 <h4 style="color: var(--primary-green); margin-bottom: 10px;">Apply for Membership</h4>
-                <p>To apply, submit your detailed CV to <strong>president.sast@gmail.com</strong></p>
+                <p>To apply, submit your detailed CV to <strong><a href="mailto:president.sast@gmail.com" style="color: inherit; text-decoration: underline;">president.sast@gmail.com</a></strong></p>
                 <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
-                <p style="font-size: 0.9rem; color: rgba(15, 44, 89, 0.85);"><strong>Cancellation Policy:</strong> Members may cancel their membership at any time. However, no refunds will be issued for the current membership period. To cancel, please contact us at president.sast@gmail.com.</p>
+                <p style="font-size: 0.9rem; color: rgba(15, 44, 89, 0.85);"><strong>Cancellation Policy:</strong> Members may cancel their membership at any time. However, no refunds will be issued for the current membership period. To cancel, please contact us at <strong><a href="mailto:president.sast@gmail.com" style="color: inherit; text-decoration: underline;">president.sast@gmail.com</a></strong>.</p>
             </div>
         </div>
     </section>
@@ -779,10 +791,11 @@
                 </div>
                 <div class="footer-col">
                     <h4>Contact Us</h4>
-                    <p>Society for Applied Sciences and Technologies</p>
-                    <p>261/3, Anna Nagar, Kannankurichi (PO), Salem, Tamil Nadu, India</p>
-                    <p>president.sast@gmail.com</p>
-                    <p>www.sast.org</p>
+                    <p><i class="fas fa-university"></i>Society for Applied Sciences and Technologies</p>
+                    <p><i class="fas fa-map-marker-alt"></i>261/3, Anna Nagar, Kannankurichi (PO), Salem, Tamil Nadu, India</p>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:president.sast@gmail.com">president.sast@gmail.com</a></p>
+                    <p><i class="fas fa-phone-alt"></i><a href="tel:+917598965447">+91 75989 65447</a></p>
+                    <p><i class="fas fa-globe"></i><a href="https://www.sast.org" target="_blank" rel="noopener noreferrer">www.sast.org</a></p>
                 </div>
             </div>
             <div class="copyright">&copy; <span id="copyright-year">2026</span> Society for Applied Sciences and Technologies. All Rights Reserved.</div>
